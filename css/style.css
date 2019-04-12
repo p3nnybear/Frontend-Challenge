@@ -19,10 +19,22 @@ body {
 }
 
 nav {
-  position: fixed;
+  position: sticky;
   width: 375px;
   background-color: #096B91;
   padding: 15px 0 15px 15px;
+}
+
+.current-location {
+  font-family: "roboto", "SF", sans-serif;
+  font-size: 17px;
+  padding-left: 30px;
+}
+
+.search-bar {
+  font-family: "roboto", "SF", sans-serif;
+  font-size: 17px;
+  padding-left: 30px;
 }
 
 .top-menu {
@@ -30,7 +42,7 @@ nav {
   margin: auto;
   color: white;
   font-size: 17px;
-  font-family: "SF Pro Display", "SF", sans-serif;
+  font-family: "roboto", "SF", sans-serif;
   letter-spacing: 0.0241em;
   text-align: center;
   width: 85%;
@@ -46,24 +58,63 @@ nav {
   display: inline-block;
   padding-right: 15px;
 }
-. .divider {
+
+.divider {
   background-color: #8A8A8F;
   width: 100%;
   display: inherit;
+  text-align: inherit;
+  font-size: 12px;
+  padding-left: 20px;
+  font-family: "roboto", "SF", sans-serif;
+
 }
 
-.divider h5 {
-  font-family: "SF Pro Display", "SF", sans-serif;
+/* .divider h5 {
+  font-family: "roboto", "SF", sans-serif;
   font-size: 12px;
   width: 100%;
   height: 30px;
-  background-color: #EFEFEF;
-  text-indent: 15px;
+  color: white;
+  padding-left: 30px;
   padding-top: 10px;
   display: inline-block;
+} */
+.street {
+  display: inline-block;
+  width: 100%;
+  font-size: 17px;
+  text-align: center;
 }
 
-h4 {
+.bus-number {
+  display: inline-block;
+  width: 20%;
+  margin:auto;
+  font-size: 17px;
+  padding-top:10px;
+  padding-left: 30px;
+}
+
+
+.bus-number h4 {
+  font-family: "roboto", "SF", sans-serif;
+  letter-spacing: 0.0241em;
+  width: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin: auto;
+}
+
+.location h4 {
+  font-family: "roboto", "SF";
+  letter-spacing: 0,0241em;
+  font-size: 17px;
+  padding-left: 80px;
+}
+
+/* h4 {
   padding-left: 20px;
   font-size: 17px;
 }
@@ -72,16 +123,10 @@ h4 {
 }
 h5 {
   padding-left: 50px;
-}
+} */
 
-.frequency {
-  display: inline-block;
-  padding-left: 80px;
-  padding-top: 5px;
-  width: 58%;
-}
 
-.location h1 {
+/* .location h1 {
   font-family: "roboto", "SF", sans-serif;
   font-size: 17px;
   line-height: normal;
@@ -89,75 +134,24 @@ h5 {
 }
 
 .location h3 {
-  font-family: "SF Pro Display", "SF", sans-serif;
+  font-family: "roboto", "SF", sans-serif;
   letter-spacing: 0.0241em;
-  font-size: 12px;
+  font-size: 15px;
   color: #8A8A8F;
   line-height: 2;
 }
 
-.bus-number {
-  display: inline-block;
-  width: 20%;
-  margin:auto;
-}
 
-.bus-number h2 {
-  font-family: "SF Pro Display", "SF", sans-serif;
-  letter-spacing: 0.0241em;
-  padding-left: 2px;
-  text-align: center;
-  padding-bottom: 2px;
-
-}
-
-.bus-number h4 {
-  font-family: "SF Pro Display", "SF", sans-serif;
-  letter-spacing: 0.0241em;
-  width: 30px;
-  border-radius: 2px;
-  background-color: #14CCBD;
-  text-align: center;
-  font-size: 188px;
-  color: white;
-  margin: auto;
-}
-
-.OOS h4 {
-  font-family: "SF Pro Display", "SF", sans-serif;
-  letter-spacing: 0.0241em;
-  padding: 2px;
-  width: 30px;
-  border-radius: 2px;
-  background-color: lightgrey;
-  text-align: center;
-  font-size: 16px;
-  color: white;
-  margin: auto;
-}
-.status {
-  font-family: "SF Pro Display", "SF", sans-serif;
-  letter-spacing: 0.0241em;
-  display: inline-block;
-}
-
-.reroute h2 {
-  color: grey;
-}
-.delayed h2 {
-  color: red;
-  text-align: left;
-}
-.bus-stops {
+.bus-stop {
   width: 100%;
   background-color: white;
 }
+
 .location {
-  margin: auto;
-  height: 70px;
+  height: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
   display: inline-block;
-  border-bottom: 1px solid #BCBBC1;
+  border-bottom: 1px solid #F1F1F2;
 }
