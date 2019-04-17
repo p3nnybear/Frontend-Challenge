@@ -7,11 +7,13 @@ box-sizing: border-box;
 
 .body {
   background-color: #333;
-  font-family: sans-serif;
+  font-family: "roboto", "SF", sans-serif;
   font-size: 10px;
   line-height: 1.2;
 }
-
+body {
+  background-color: #8E8E93
+}
 .container {
   margin: 0 auto;
   width: 375px;
@@ -49,38 +51,71 @@ nav {
 }
 
 .location {
-  display: inline;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid lightgray;
 }
 
 .current-location {
   font-family: "roboto", "SF", sans-serif;
   font-size: 17px;
   padding-left: 15px;
-  padding-top: 5px;
-  padding: 5px;
+  padding-top: 1px;
+  padding: 3px;
   align-content: left;
-  
+  color: #839ED2;
+  margin-left: 10px;
 }
 
 .current-location .img {
   padding-left: 5px;
+  margin-left: 10px;
+  padding-top: 3px;
 }
 
 .search-bar {
   font-family: "roboto", "SF", sans-serif;
   font-size: 17px;
   padding-left: 15px;
-  padding-top: 5px;
+  padding-top: 2px;
   padding: 5px;
+  background-color: rgba(142, 142, 147, 0.12);
+  border: 1px solid white;
+  color: #8E8E93;
+  border-radius: 10px;
+  margin: 0 3px 4 3px;
+  font-weight: normal;
+  line-height: initial;
+  margin-left: 10px;
+}
+
+#my-location {
+  display: flex;
+}
+
+img {
+  margin-right: 5px;
+}
+.icon-img {
+  padding-top: 2px;
+
+  margin-left: 7px;
+
+}
+ 
+#clear-search {
+  display: inline-flex;
+  float:right;
+  padding-top: 2px;
 }
 
 .divider {
-  background-color: #8A8A8F;
+  background-color: #C4C4C4;
   color: white;
   width: 100%;
   display: inherit;
   text-align: inherit;
-  font-size: 12px;
+  font-size: 14px;
   padding-left: 20px;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -95,21 +130,64 @@ nav {
   text-align: center;
   padding-top:6px;
   padding-bottom: 6px;
+  margin: 0;
   border: 8px solid white;
   background-color: 096B91;
   color: white;
-  
+  line-height: 22px;
+  font-family: "roboto", "SF", sans-serif;
+  margin-left: 10px;
+
 }
 
 
-.bus-number h4 {
+.location .street {
+  display: inline;
+}
+
+.time {
+  display: flex;
+}
+.nums{
+  color: navy;
+
+}
+
+.mins{
+  color: grey;
+  padding-left: 5px;
+  font-weight: normal;
+  padding-top: 1px;
+}
+
+.street {
+  padding: 6px;
+  color: #979797;
+  font-family: "roboto", "SF", sans-serif;
+  font-weight: bold; 
+  font-size: 18px;
+  /* line-height: 22px; */
+  letter-spacing: -0.0241176em;
+}
+
+.street h4 {
+  font-weight: normal;
+  color: #096B91;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.0241176em;
+}
+
+
+
+/* .bus-number h4 {
   font-family: "roboto", "SF", sans-serif;
   letter-spacing: 0.0241em;
   width: 100%;
   text-align: center;
-  font-size: 20px;
+  font-size: 10px;
   color: white;
-  margin: auto;
+  margin: auto; */
 }
 
 /* .divider h5 {
