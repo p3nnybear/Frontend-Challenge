@@ -10,17 +10,23 @@
 
 <body>
     <section class="container">
-        <nav>
-            <div class="top-menu">
-                <h1>Washington &amp; State</h1>
+        <nav class="iso-bar">
+            <div>
+                <i><img src="images/topinfo.png" alt=""></i>
             </div>
-            <div class="arrow-left">
-                <i class="fa fa-chevron-left fa-inverse fa-1x" aria-hidden="true"></i>
-            </div>
-            <div class="icon">
-                <i><img src="images/icon.png" alt=""></i>
+            <div class="lower-header">
+                <div class="top-menu">
+                    <h1>Washington &amp; State</h1>
+                </div>
+                <div class="arrow-left">
+                    <i class="fa fa-chevron-left fa-inverse fa-1x" aria-hidden="true"></i>
+                </div>
+                <div class="icon">
+                    <i><img src="images/icon.png" alt=""></i>
+                </div>
             </div>
         </nav>
+
         <!-- second row -->
         <section class="current-location">
             <div class="location-icon">
@@ -29,13 +35,18 @@
                 </i>
             </div>
         </section>
-        <section class="search-bar">
+        <form action="search-bar">
+            <input class="search-bar" type="search" name="Search" value="Search">
+        </form>
+
+
+        <!-- <section class="search-bar">
             <div class="search">
                 <i><img class="icon-img" src="images/search.png" alt=""></i>Search
 
                 <i><img id="clear-search" src="images/clear.png" alt=""></i>
             </div>
-        </section>
+        </section> -->
 
         <!-- Content -->
         <section class="bus-stop">
