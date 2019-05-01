@@ -44,100 +44,91 @@
                 width: 95%;
                 height: 25px;
                 margin: 6px;
-">
+                ">
                 <input class="search-bar" type="Search" name="Search" placeholder="Search">
             </form>
         </div>
-
-        <!-- <section class="search-bar">
-            <div class="search">
-                <i><img class="icon-img" src="images/search.png" alt=""></i>Search
-
-                <i><img id="clear-search" src="images/clear.png" alt=""></i>
-            </div>
-        </section> -->
 
         <!-- Content -->
         <section class="bus-stop">
             <div class="divider">Eastbound
             </div>
-
-            <div class="location">
-                <div class="bus-number">60</div>
-                <div class="street">Randolph/Harbor Dr.
-                    <div class="time">
-                        <div class="numbs">
-                            <h4>2, 22, 42</h4>
+            <ul>
+                <li class="location">
+                    <div class="bus-number">60</div>
+                    <div class="street">Randolph/Harbor Dr.
+                        <div class="time">
+                            <div class="numbs">
+                                <h4>2, 22, 42</h4>
+                            </div>
+                            <div class="mins">Mins</div>
                         </div>
-                        <div class="mins">Mins</div>
                     </div>
-                </div>
-            </div>
+                </li>
 
-            <div class="location">
-                <div class="bus-number">124</div>
-                <div class="street">Navy Pier
-                    <div class="time">
-                        <div class="nums">
-                            <h4>4, 14, 24</h4>
+                <li class="location">
+                    <div class="bus-number">124</div>
+                    <div class="street">Navy Pier
+                        <div class="time">
+                            <div class="nums">
+                                <h4>4, 14, 24</h4>
+                            </div>
+                            <div class="mins">Mins</div>
                         </div>
-                        <div class="mins">Mins</div>
                     </div>
-
-                </div>
-
-            </div>
+                </li>
+            </ul>
 
             <!-- <section class="bus-stop"> -->
             <div class="divider">Northbound
             </div>
-
-            <div class="location">
-
-                <div class="bus-number">151</div>
-                <div class="street">Devon/Clark
-                    <div class="time">
-                        <div class="numbs">
-                            <h4>6, 22, 38</h4>
+            <ul>
+                <li class="location">
+                    <div class="bus-number">151</div>
+                    <div class="street">Devon/Clark
+                        <div class="time">
+                            <div class="numbs">
+                                <h4>6, 22, 38</h4>
+                            </div>
+                            <div class="mins">Mins</div>
                         </div>
-                        <div class="mins">Mins</div>
                     </div>
-                </div>
+                </li>
+                <section class="bus-stop">
+                    <div class="divider">Southbound
+                    </div>
+                    <li class="location">
+
+                        <div class="bus-number">J14</div>
+                        <div class="street">103rd/Stony Island
+                            <div class="time">
+                                <div class="numbs">
+                                    <h4>4, 19, 34</h4>
+                                </div>
+                                <div class="mins">Mins</div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="location">
+
+                        <div class="bus-number">124</div>
+                        <div class="street">Navy Pier
+                            <div class="time">
+                                <div class="numbs">
+                                    <h4>2, 12, 22</h4>
+                                </div>
+                                <div class="mins">Mins</div>
+                            </div>
+                        </div>
+                    </li>
+            </ul>
+
+            <!-- Reroute -->
+            <div class="divider">Reroute
             </div>
-            <section class="bus-stop">
-                <div class="divider">Southbound
-                </div>
-
-                <div class="location">
-
-                    <div class="bus-number">J14</div>
-                    <div class="street">103rd/Stony Island
-                        <div class="time">
-                            <div class="numbs">
-                                <h4>4, 19, 34</h4>
-                            </div>
-                            <div class="mins">Mins</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="location">
-
-                    <div class="bus-number">124</div>
-                    <div class="street">Navy Pier
-                        <div class="time">
-                            <div class="numbs">
-                                <h4>2, 12, 22</h4>
-                            </div>
-                            <div class="mins">Mins</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Reroute -->
-                <div class="divider">Reroute
-                </div>
-
-                <div class="location">
+            <ul>
+                <li class="location">
 
                     <div class="bus-number">6x</div>
                     <div class="street">Jackson Park
@@ -147,12 +138,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- out of service -->
-                <div class="divider">Out of Service
-                </div>
+                </li>
+            </ul>
 
-                <div class="location">
+            <!-- out of service -->
+            <div class="divider">Out of Service
+            </div>
+            <ul>
+                <li class="location">
 
                     <div class="bus-number">4</div>
                     <div class="street">Cottage Grove
@@ -162,9 +155,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </li>
 
-                <div class="location">
+                <li class="location">
 
                     <div class="bus-number">20</div>
                     <div class="street">Madison
@@ -174,10 +167,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </li>
 
-                <div class="location">
-
+                <li class="location">
                     <div class="bus-number">157</div>
                     <div class="street">Streeterville/Taylor
                         <div class="time">
@@ -186,9 +178,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </li>
+            </ul>
         </section>
+    </section>
 </body>
-
 </html>
