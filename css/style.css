@@ -21,14 +21,22 @@
   background: grey;
 }
 
+.search-img {
+  padding-left: 20px;
+  float: left;
+  padding-top:6px;
+} 
 
 
 .search-bar {
-  background: rgba(142, 142, 147, 0.12) url(../images/search.png) no-repeat scroll 22px 1px;
-  padding-left:45px;
-  width: 100%;
+  /* background: rgba(142, 142, 147, 0.12) url(../images/search.png) no-repeat scroll 22px 1px; */
+  /* padding-left:18px; */
+  padding-left: 3px;
+  width: 87%;
   border: none;
-  border-radius: 10px;
+  font-size: 15px;
+  background-color: F2F2FA;
+  padding-top: 3px;
 }
 
 .lower-header {
@@ -131,6 +139,7 @@ nav {
 
 img {
   margin-right: 5px;
+  float: left;
 }
 
 .icon-img {
