@@ -1,2 +1,2 @@
-# frontend challenge
+# BusyBus
 BusyBus
